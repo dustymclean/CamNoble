@@ -1,3 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add the 'font-display' utility to match your Home.tsx classes */
+.font-display {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 /* Global Resets & Base Styles */
 body { 
   font-family: 'Inter', sans-serif; 
