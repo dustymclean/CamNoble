@@ -204,7 +204,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 
                 <div className="space-y-6 text-zinc-400 font-light leading-relaxed text-lg">
                   <p>
-                    Hi, my name is <span className="text-white font-bold">Dusty McLean</span>. I make NFC enabled ID card and websites. I try to make it easy to get in contact with me.
+                    Hi, my name is <span className="text-white font-bold">Dusty McLean</span>. I make NFC enabled ID cards and websites. I try to make it easy to get in contact with me.
                   </p>
                   <p>
                     If you like what you see here on Cam's website, don't hesitate in reaching out to me. I would love to hear your ideas, and I'd love to build something special for you.
