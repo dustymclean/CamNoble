@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cam Noble Digital Ecosystem</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script> 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+
+  <!-- Primary Meta -->
+  <title>Cam Noble | Digital Ecosystem & Command Center</title>
+  <meta name="description" content="Official digital hub for Cam Noble. Founder of Noble Labs, Noble Seltzer, and pioneer in Mississippi's cannabis processing and retail innovation." />
+
+  <!-- SEO -->
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Cam Noble" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Cam Noble | Digital Ecosystem" />
+  <meta property="og:description" content="Explore the Noble ecosystem: From industrial cannabis processing to award-winning seltzers." />
+  <meta property="og:image" content="/CamNoble/og-preview.jpg" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN (OK for now) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Structured Data (unchanged, SAFE) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Cam Noble",
+    "jobTitle": "Founder & Visionary",
+    "url": "https://noblelabsms.com"
+  }
+  </script>
+</head>
+
+<body class="bg-zinc-50 text-zinc-900">
+  <div id="root"></div>
+
+  <!-- 🚨 REQUIRED: Vite entry point -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
