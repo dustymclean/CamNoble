@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +13,6 @@
   <!-- Style Sheets -->
   <link rel="stylesheet" href="index.css">
 
-  <!-- Crawler Discovery: Relative paths for GH Pages compatibility -->
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
-
   <!-- Primary Meta Tags -->
   <title>Cam Noble | Digital Ecosystem & Command Center</title>
   <meta name="title" content="Cam Noble | Digital Ecosystem & Command Center">
@@ -22,25 +20,21 @@
   <meta name="keywords" content="Cam Noble, Noble Labs, Noble Seltzer, Mississippi Cannabis, Cannabis Processing, Tylertown Dispensary, Oxford MS Cannabis, Hill Country Cannabis, 3D Printing innovation, MS Medical Marijuana, Nano-emulsion seltzer">
   <meta name="author" content="Cam Noble">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="language" content="English">
-  <meta name="revisit-after" content="7 days">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://noblelabsms.com/">
-  <meta property="og:locale" content="en_US">
   <meta property="og:title" content="Cam Noble | Digital Ecosystem">
   <meta property="og:description" content="Explore the Noble ecosystem: From industrial cannabis processing to award-winning seltzers and technical innovation.">
   <meta property="og:image" content="https://noblelabsms.com/og-preview.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://noblelabsms.com/">
   <meta property="twitter:title" content="Cam Noble | Digital Ecosystem">
   <meta property="twitter:description" content="Official command center for Cam Noble's industrial and retail ventures.">
   <meta property="twitter:image" content="https://noblelabsms.com/og-preview.jpg">
 
-  <!-- Hyper-Advanced Structured Data Graph -->
+  <!-- Structured Data -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -50,95 +44,39 @@
           "@id": "https://noblelabsms.com/#website",
           "url": "https://noblelabsms.com/",
           "name": "Cam Noble Digital Ecosystem",
-          "description": "Industrial cannabis processing and retail innovation hub in Mississippi.",
           "publisher": {"@id": "https://noblelabsms.com/#organization"}
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://noblelabsms.com/#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@id": "https://noblelabsms.com/",
-                "name": "Home"
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@id": "https://noblelabsms.com/#/noble-labs",
-                "name": "Noble Labs Processing"
-              }
-            }
-          ]
         },
         {
           "@type": "Person",
           "@id": "https://noblelabsms.com/#person",
           "name": "Cam Noble",
           "jobTitle": "Founder & Visionary",
-          "url": "https://noblelabsms.com",
-          "sameAs": [
-            "https://www.instagram.com/noblelabsms/",
-            "https://www.instagram.com/noble.seltzer/",
-            "https://www.linkedin.com/in/cam-noble/"
-          ]
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://noblelabsms.com/#organization",
-          "name": "Noble Ecosystem",
-          "url": "https://noblelabsms.com",
-          "logo": "https://noblelabsms.com/logo.png",
-          "founder": {"@id": "https://noblelabsms.com/#person"}
-        },
-        {
-          "@type": "MedicalBusiness",
-          "name": "Noble Labs Dispensary Tylertown",
-          "image": "https://noblelabsms.com/tylertown-preview.jpg",
-          "@id": "https://noblelabsms.com/tylertown",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "241 Old Hwy 98 E",
-            "addressLocality": "Tylertown",
-            "addressRegion": "MS",
-            "postalCode": "39667",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "31.1157",
-            "longitude": "-90.1448"
-          },
-          "telephone": "+1-601-803-5046",
-          "priceRange": "$$",
-          "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:00"
+          "url": "https://noblelabsms.com"
         }
       ]
     }
   </script>
 
+  <!-- Tailwind CDN maintained for the requested 'no-change' front-end policy -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-
 <script type="importmap">
 {
   "imports": {
-    "react": "https://esm.sh/react@18.3.1",
-    "react/": "https://esm.sh/react@18.3.1/",
-    "react-dom": "https://esm.sh/react-dom@18.3.1",
-    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
-    "react-router-dom": "https://esm.sh/react-router-dom@6.26.1?external=react,react-dom",
-    "framer-motion": "https://esm.sh/framer-motion@11.3.30?external=react,react-dom",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.34.0"
   }
 }
 </script>
 </head>
 <body class="bg-zinc-50 text-zinc-900">
   <div id="root"></div>
+  <!-- Relative path for Vite module entry -->
+  <script type="module" src="index.tsx"></script>
 </body>
 </html>
