@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+
+# Crawl-delay helps prevent aggressive bots from overwhelming the server
+Crawl-delay: 10
+
+Sitemap: https://noblelabsms.com/sitemap.xml
